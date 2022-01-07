@@ -1,1 +1,2 @@
-# sariq-dew-new-darslari
+# python-darslari-sariq-dev
+Ushbu repositoryda pyhton darslariga oid kodlar jamlangan

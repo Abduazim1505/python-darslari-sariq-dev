@@ -43,7 +43,7 @@ for mahsulot in mahsulotlar.keys(): # bu yerda keys yozmasaham bo'ladi
     
 # sorted() metodi LUG'AT ELEMENTLARINI TARTIB BILAN CHIQADI
 print("Do'konimizdagi mahsulotlar:")    
-for mahsulot in sorted(mahsulotlar): # sorted qo'lanishi
+for mahsulot in sorted(mahsulotlar.keys()): # sorted qo'lanishi
     print(mahsulot.title())
 
 # .values() METODI3

@@ -24,7 +24,7 @@ print(raqamlar_kvadrati)
 # For tsikli foydalanuvchi tomonidan malumoto'ldirish orqali shakllantirish
 dostlar = [] # bo'sh ro'yxat
 print("5 ta eng yaqin do'stingiz kim?")
-for n in range(5): # range funksiyasi 0 dan boshlab 5 gacha son shakllantiradi
-    dostlar.append(input(f"{n+1} - do'stingiz ismini kiriting: "))
+# for n in range(5): # range funksiyasi 0 dan boshlab 5 gacha son shakllantiradi
+    # dostlar.append(input(f"{n+1} - do'stingiz ismini kiriting: "))
 
 print(dostlar)

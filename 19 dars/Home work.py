@@ -37,3 +37,26 @@ def kattasi_chiqsin(son_1, son_2):
         print("Sonlar teng")
         
 kattasi_chiqsin(8, 5)
+
+# x va y sonlarini olib, ni konsolga chiqaruvchi funksiya yozing
+def daraja(x, y=2): # y uchun 2 standart qiymatini bering.
+    """x va y sonlarini olib, ni konsolga chiqaruvchi funksiya yozing"""
+    print(f"{x} ning {y} - darajasi {x**y}")
+daraja(8)
+
+# sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing
+def qoldiqsiz_bol(x):
+    y = 2
+    while y <= 10:
+        if x % y == 0:
+            print(f"{x} ga {y} qoldiqsiz bo'linadi")
+        y += 1
+qoldiqsiz_bol(59)
+
+# sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing
+def bolinish_alomatlari(son):
+    for n in range(2,11):
+        if not son%n:
+            print(f"{son} {n} ga qoldiqsiz bo'linadi")
+
+bolinish_alomatlari(20)
